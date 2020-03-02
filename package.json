@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "ims",
   "main": "index.js",
+  "engines": {
+    "node": "12.13.1"
+  },
   "scripts": {
-    "start": "nodemon debug index.js",
+    "start": "node index.js",
     "build": "node index.js"
   },
   "keywords": [
