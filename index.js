@@ -6,7 +6,7 @@ const morgan = require("morgan");
 const helmet = require("helmet");
 const fs = require("fs");
 const db = require("./config/keys").mongoURI;
-const cors = require("cors");
+// const cors = require("cors");
 
 const dbLoader = require("./config/loader").loadData;
 
@@ -31,7 +31,7 @@ app.use(
   })
 );
 
-app.use(cors());
+// app.use(cors());
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
