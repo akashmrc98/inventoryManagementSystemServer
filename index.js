@@ -13,7 +13,7 @@ const dbLoader = require("./config/loader").loadData;
 const AssetRoutes = require("./routes/Asset");
 const ManagementRoutes = require("./routes/Management");
 const UserRoutes = require("./routes/User");
-const ExtrasRoutes = require("./routes/Extras");
+// const ExtrasRoutes = require("./routes/Extras");
 
 const app = express();
 
@@ -39,7 +39,7 @@ app.use(bodyParser.json());
 app.use(AssetRoutes);
 app.use(ManagementRoutes);
 app.use(UserRoutes);
-app.use(ExtrasRoutes);
+// app.use(ExtrasRoutes);
 
 const PORT = process.env.PORT || 3000;
 
