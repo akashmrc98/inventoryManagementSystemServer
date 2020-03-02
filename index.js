@@ -49,7 +49,7 @@ app.get("*", function(req, res) {
   res.sendFile(__dirname + "/public/index.html");
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
   console.log(`server started on port ${PORT}`);
 });
 
