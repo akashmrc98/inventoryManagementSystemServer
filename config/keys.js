@@ -1,5 +1,5 @@
 module.exports = {
   mongoURI:
-    "mongodb+srv://akashmrc98:akash123@cluster0-abxao.mongodb.net/test?retryWrites=true&w=majority",
+    "mongodb://localhost/server",
   key: "$msi_amd@98"
 };
